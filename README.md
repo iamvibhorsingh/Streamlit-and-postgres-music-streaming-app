@@ -5,18 +5,18 @@
 For  data acquisition,  real-world data from a web API called Exportify (that uses Spotify's API) was consumed and then loaded it into a csv file and pre-processed.
 
 ### Business rules
-Library - it is the library of a user
-• A library belongs to exactly one user
-User - users of the application
-• A user has exactly one library
-Songs - songs in our music database
-Artists - artists in our music database
-• An artist has at least one song
-Playlist
-• A playlist has at least one song
-Podcast – podcasts in our database
-Broadcaster - broadcasters in our database
-• A broadcaster has at least one podcast
+- Library - it is the library of a user
+-- A library belongs to exactly one user
+- User - users of the application
+-- A user has exactly one library
+- Songs - songs in our music database
+- Artists - artists in our music database
+-- An artist has at least one song
+- Playlist
+-- A playlist has at least one song
+- Podcast – podcasts in our database
+- Broadcaster - broadcasters in our database
+-- A broadcaster has at least one podcast
 
 ### Examples of kinds of queries that can be done
 - Query to see detail of a song in the database
