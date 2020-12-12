@@ -1,7 +1,0 @@
-cat /home/sg6103/project-part2/data/users.csv | psql -U sg6103 -d sg6103-db -h localhost -p 5432 -c "COPY users from STDIN CSV HEADER"
-cat /home/sg6103/project-part2/data/songs.csv | psql -U sg6103 -d sg6103-db -h localhost -p 5432 -c "COPY songs from STDIN CSV HEADER"
-cat /home/sg6103/project-part2/data/artists.csv | psql -U sg6103 -d sg6103-db -h localhost -p 5432 -c "COPY artists from STDIN CSV HEADER"
-cat /home/sg6103/project-part2/data/playlists.csv | psql -U sg6103 -d sg6103-db -h localhost -p 5432 -c "COPY playlists from STDIN CSV HEADER"
-cat /home/sg6103/project-part2/data/podcasts.csv | psql -U sg6103 -d sg6103-db -h localhost -p 5432 -c "COPY podcasts from STDIN CSV HEADER"
-cat /home/sg6103/project-part2/data/broadcasters.csv | psql -U sg6103 -d sg6103-db -h localhost -p 5432 -c "COPY broadcasters from STDIN CSV HEADER"
-cat /home/sg6103/project-part2/data/library.csv | psql -U sg6103 -d sg6103-db -h localhost -p 5432 -c "COPY library from STDIN CSV HEADER"
