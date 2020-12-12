@@ -1,8 +1,7 @@
 ### The project was to design and develop an application, using Postgres database, for getting various insights about different parts of audio streaming components like users, songs, podcasts etc. The tables in the design can be used perform queries on all the components of our system.
 
+![User Interface in streamlit](https://github.com/iamvibhorsingh/Streamlit-and-postgres-music-streaming-app/blob/master/data/ui.png?raw=true)
 
-### Data source
-For  data acquisition,  real-world data from a web API called Exportify (that uses Spotify's API) was consumed and then loaded it into a csv file and pre-processed.
 
 ### Business rules
 - Library - it is the library of a user
@@ -17,6 +16,12 @@ For  data acquisition,  real-world data from a web API called Exportify (that us
 - Podcast – podcasts in our database
 - Broadcaster - broadcasters in our database
 -- A broadcaster has at least one podcast
+
+![ER diagram](https://github.com/iamvibhorsingh/Streamlit-and-postgres-music-streaming-app/blob/master/data/er_diagram.PNG?raw=true)
+
+
+### Data source
+For  data acquisition,  real-world data from a web API called Exportify (that uses Spotify's API) was consumed and then loaded it into a csv file and pre-processed.
 
 ### Examples of kinds of queries that can be done
 - Query to see detail of a song in the database
